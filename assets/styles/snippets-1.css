@@ -1,0 +1,90 @@
+body{
+    margin: 0px auto; /* write'auto' for box view/version with less than 100% */
+    width: 100%;
+}
+
+.button button{
+    /*padding: 15px 30px;
+     top-bottom rt-lt
+       top-rt-lt-bottom
+       top-lt-rt-bottom 
+       color: #fff;
+       font-size: 24px;*/
+       border-radius: 50px;
+       background-color: #f69e7b;
+       border-color: transparent;
+}
+.button button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.gradient{
+    min-height: 700px;
+    background-image: radial-gradient(#e4e3e3,#84a9ac,#3b6978,#204051);
+}
+
+.transition{
+    background: none;
+    transition: background 3s;
+}
+
+.transition:hover{
+    background: lightgreen;
+
+}
+
+
+@media (min-width:1441px) and (max-width:2561px){
+    .button .xl{
+        padding: 15px 45px;
+        font-size: 36px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1439px){
+    .button .lg{
+        padding: 10px 38px;
+        font-size: 32px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .button .md{
+        padding: 8px 35px;
+        font-size: 28px;
+    }
+}
+
+@media (min-width:425px) and (max-width:767px){
+    .button .sm{
+        padding: 6px 25px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:320px) and (max-width:423px){
+    .button .xs{
+        padding: 4px 20px;
+        font-size: 16px;
+    }
+}
+
+
+.background{
+    background-image: url("https://live.staticflickr.com/2730/5799033854_67a1d762c7_b.jpg");
+    min-height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-decoration: none;
+    display: table;
+    height: 100vh;
+    width: 100%;   
+}
+
+
+
+
+
+

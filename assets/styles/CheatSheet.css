@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+    width: 100%;
+}
+
+section{
+    background-color: #ffe8df;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 20px;
+    text-transform: capitalize;
+}
+nav ul{
+    float: right;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #ff9a76;
+    position: fixed;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.inner-l1 li{
+    list-style-type: none;
+    float: left;
+    padding-right: 20px;
+    padding-left: 5px;
+
+}
+.inner-l1 li :last-child{/* this will get more priority than above inner-l1*/
+    list-style-type: none;
+    float: left;
+}
+
+/*.inner-l1 li:not(:first-child) ::before{
+    content: "!"; here we 3 pseudo class such as li:not,first:child & ::before 
+}*/
+
+@media (min-width:2562px){
+    .content .inner {
+        width: 50%;
+        float: left;
+    }
+    
+   .frames .inner{
+    width: 50%;
+    float: left;
+}
+}
+
+
+@media (min-width:1441px) and (max-width:2561px){
+    .content .inner{
+        width: 50%;
+        float: left;
+    }
+    
+    .frames .inner{
+    width: 50%;
+    float: left;
+}
+}
+
+@media (min-width:1024px) and (max-width:1439px){
+    .content .inner{
+        width: 40%;
+        float: left;
+    }
+    
+    .frames .inner{
+    width: 60%;
+    float: left;
+}
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .content .inner{
+        width: 50%;
+        float: left;
+    }
+    
+    .frames .inner{
+    width: 50%;
+    float: left;
+}
+}
+
+@media (min-width:425px) and (max-width:767px){
+    .content .inner{
+        width: 100%;
+        float: left;
+    }
+    
+    .frames .inner{
+    width: 100%;
+    float: left;
+}
+}
+
+@media (min-width:320px) and (max-width:423px){
+    .content .inner{
+       width: 100%;
+       float: left;
+   }
+
+   .frames .inner{
+       width: 100%;
+       float: left;
+   }
+}
+
+.border-width{
+    border-width: thick;
+    border-style: ridge;
+    border-color: #d8b9c3;
+}
+/*border-right
+border-left
+border-left-style
+border-right-style
+top bottom
+border-left-width
+border-right-width
+*/
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.height{
+    background-color: lightslategray;
+    height: 26px;
+}
+
+.max-height{
+    max-height: 120px;
+    overflow: scroll;
+   
+}
+
+.max-height h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 300px;
+    font-style: italic;
+    line-height:10px; 
+}
+
+.min-height{
+    min-height: 150px;
+    background-color: mediumorchid;
+}
+
+/* margin:10px; ltrb
+margin:10px, 15px; tb rf
+length: %
+padding: 34; maybe single,double,triple value ..etc u can use individually also such as "margin-left,margin-right....etc"
+
+*/
+.fonts h2{
+    font-family: 'Galada', cursive;
+
+    
+    font-size: 32px;
+    font-weight: 100px;
+    font-style: italic;
+    line-height:10px;
+}
+
+.fonts h3{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    font-weight: 500px;
+    font-style: bold;
+    line-height:50px;
+}
