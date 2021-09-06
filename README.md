@@ -1,1 +1,1 @@
-#Things that I have learnt in Internship studio training internship
+#This Repo consists of Website Designing data that I have learnt and used in Internship studio Training.
